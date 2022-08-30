@@ -6,3 +6,8 @@ YouTube is a great platform for learning anything, you can find videos on almost
 INTRODUCTION
 
 E-class is a website where you will find the best courses on YouTube, in a structured format, you can also track your progress. The instructor can turn their YouTube Playlist into a structured course in just a few minutes. You can become an instructor and add courses to the site once you are verified(but currently I'm allowing anyone to become an instructor so that people can test the application).
+
+
+CHALLANGES
+
+Although there were lots of challenges I faced in this project if you ask me one challenge which took most of the time to figure out is the "Auto Importing of Video from the YouTube playlist". But in the end, I was able to solve it by using the pytube package and Django's bulk_create method.
