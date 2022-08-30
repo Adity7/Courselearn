@@ -15,7 +15,12 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from course.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('loaddata/', loadData),
+    path('', listData),
+    path('deleteCourse/<int:course_id>/', deleteCourse),
+    path('searchBook/', searchCourse),
 ]
